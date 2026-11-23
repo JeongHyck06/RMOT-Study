@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 데이터: 폴더 구조(.gitkeep)만 추적, 내용물은 제외
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# 실습 결과물
+outputs/
+*.pth
+*.pt
